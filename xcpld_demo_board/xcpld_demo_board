@@ -1,0 +1,9 @@
+Qty,partname,description,lib
+0,"C","Unpolarized capacitor","device"
+0,"CONN_02X05","Connector, double row, 02x05","conn"
+0,"CP1","Polarised capacitor","device"
+0,"D_Schottky","Diode schottky","device"
+0,"JACK_2P","","device"
+0,"LM317K","1.5A 35V Adjustable Linear Regulator, TO-3","regul"
+0,"R","Resistor","device"
+0,"XCR3064-VQ44","Xilinx CoolRunner","xilinx"
