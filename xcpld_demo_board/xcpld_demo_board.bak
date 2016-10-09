@@ -549,9 +549,9 @@ Text GLabel 9400 2350 0    60   Input ~ 0
 COOL_CLK0
 Text GLabel 9400 1550 0    60   Input ~ 0
 COOL_CLK1
-Text GLabel 9400 3950 0    60   Input ~ 0
-COOL_CLK2
 Text GLabel 9400 3150 0    60   Input ~ 0
+COOL_CLK2
+Text GLabel 9400 3950 0    60   Input ~ 0
 COOL_CLK3
 $Comp
 L R R3

@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP my7400
+D Quad 2-input NAND gate
+$ENDCMP
+#
+$CMP my7402
+D Quad 2-input NOR gate
+K TTL Logic NOR
+$ENDCMP
+#
+#End Doc Library
