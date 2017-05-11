@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JACK_TRS_3PIN
+D 3-Pin TRS jack
+K audio trs
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP omeg_dual_pot
+D Potentionmetre
+K R
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,640 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:audio_amp_lm386_mk1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM386 U1
+U 1 1 58CB04A4
+P 4800 1500
+F 0 "U1" H 4850 1800 50  0000 L CNN
+F 1 "LM386" H 4850 1700 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4900 1600 50  0001 C CNN
+F 3 "" H 5000 1700 50  0000 C CNN
+	1    4800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM386 U2
+U 1 1 58CB050B
+P 4800 3600
+F 0 "U2" H 4850 3900 50  0000 L CNN
+F 1 "LM386" H 4850 3800 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 4900 3700 50  0001 C CNN
+F 3 "" H 5000 3800 50  0000 C CNN
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58CB05AF
+P 4800 1900
+F 0 "#PWR01" H 4800 1650 50  0001 C CNN
+F 1 "GND" H 4800 1750 50  0000 C CNN
+F 2 "" H 4800 1900 50  0000 C CNN
+F 3 "" H 4800 1900 50  0000 C CNN
+	1    4800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58CB05C7
+P 4800 4000
+F 0 "#PWR02" H 4800 3750 50  0001 C CNN
+F 1 "GND" H 4800 3850 50  0000 C CNN
+F 2 "" H 4800 4000 50  0000 C CNN
+F 3 "" H 4800 4000 50  0000 C CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4000 4800 3900
+Wire Wire Line
+	4800 1900 4800 1800
+$Comp
+L GND #PWR03
+U 1 1 58CB05E8
+P 4400 1700
+F 0 "#PWR03" H 4400 1450 50  0001 C CNN
+F 1 "GND" H 4400 1550 50  0000 C CNN
+F 2 "" H 4400 1700 50  0000 C CNN
+F 3 "" H 4400 1700 50  0000 C CNN
+	1    4400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 58CB0604
+P 4400 3800
+F 0 "#PWR04" H 4400 3550 50  0001 C CNN
+F 1 "GND" H 4400 3650 50  0000 C CNN
+F 2 "" H 4400 3800 50  0000 C CNN
+F 3 "" H 4400 3800 50  0000 C CNN
+	1    4400 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1600 4400 1600
+Wire Wire Line
+	4400 1600 4400 1700
+Wire Wire Line
+	4500 3700 4400 3700
+Wire Wire Line
+	4400 3700 4400 3800
+$Comp
+L CP C5
+U 1 1 58CB0649
+P 5650 1500
+F 0 "C5" H 5675 1600 50  0000 L CNN
+F 1 "250u" H 5675 1400 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 5688 1350 50  0001 C CNN
+F 3 "" H 5650 1500 50  0000 C CNN
+	1    5650 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP C6
+U 1 1 58CB06D6
+P 5650 3600
+F 0 "C6" H 5675 3700 50  0000 L CNN
+F 1 "250u" H 5675 3500 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 5688 3450 50  0001 C CNN
+F 3 "" H 5650 3600 50  0000 C CNN
+	1    5650 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C3
+U 1 1 58CB074B
+P 5350 1800
+F 0 "C3" H 5375 1900 50  0000 L CNN
+F 1 "47n" H 5375 1700 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5388 1650 50  0001 C CNN
+F 3 "" H 5350 1800 50  0000 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 58CB079E
+P 5350 3900
+F 0 "C4" H 5375 4000 50  0000 L CNN
+F 1 "47n" H 5375 3800 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 5388 3750 50  0001 C CNN
+F 3 "" H 5350 3900 50  0000 C CNN
+	1    5350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 58CB07ED
+P 5350 2200
+F 0 "R3" V 5430 2200 50  0000 C CNN
+F 1 "10" V 5350 2200 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 5280 2200 50  0001 C CNN
+F 3 "" H 5350 2200 50  0000 C CNN
+	1    5350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58CB0835
+P 5350 4300
+F 0 "R4" V 5430 4300 50  0000 C CNN
+F 1 "10" V 5350 4300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 5280 4300 50  0001 C CNN
+F 3 "" H 5350 4300 50  0000 C CNN
+	1    5350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 58CB09DE
+P 5350 2450
+F 0 "#PWR05" H 5350 2200 50  0001 C CNN
+F 1 "GND" H 5350 2300 50  0000 C CNN
+F 2 "" H 5350 2450 50  0000 C CNN
+F 3 "" H 5350 2450 50  0000 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 58CB0A01
+P 5350 4550
+F 0 "#PWR06" H 5350 4300 50  0001 C CNN
+F 1 "GND" H 5350 4400 50  0000 C CNN
+F 2 "" H 5350 4550 50  0000 C CNN
+F 3 "" H 5350 4550 50  0000 C CNN
+	1    5350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1500 5500 1500
+Wire Wire Line
+	5500 3600 5200 3600
+Wire Wire Line
+	5350 3750 5350 3600
+Connection ~ 5350 3600
+Wire Wire Line
+	5350 1650 5350 1500
+Connection ~ 5350 1500
+Wire Wire Line
+	5350 1950 5350 2050
+Wire Wire Line
+	5350 2350 5350 2450
+Wire Wire Line
+	5350 4050 5350 4150
+Wire Wire Line
+	5350 4450 5350 4550
+$Comp
+L +9V #PWR07
+U 1 1 58CB0B2C
+P 4800 1100
+F 0 "#PWR07" H 4800 950 50  0001 C CNN
+F 1 "+9V" H 4800 1240 50  0000 C CNN
+F 2 "" H 4800 1100 50  0000 C CNN
+F 3 "" H 4800 1100 50  0000 C CNN
+	1    4800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +9V #PWR08
+U 1 1 58CB0B50
+P 4800 3200
+F 0 "#PWR08" H 4800 3050 50  0001 C CNN
+F 1 "+9V" H 4800 3340 50  0000 C CNN
+F 2 "" H 4800 3200 50  0000 C CNN
+F 3 "" H 4800 3200 50  0000 C CNN
+	1    4800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1100 4800 1200
+Wire Wire Line
+	4800 3200 4800 3300
+$Comp
+L R R1
+U 1 1 58CB116B
+P 4900 2350
+F 0 "R1" V 4980 2350 50  0000 C CNN
+F 1 "R" V 4900 2350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 4830 2350 50  0001 C CNN
+F 3 "" H 4900 2350 50  0000 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1800 4900 2200
+Wire Wire Line
+	5000 1800 5000 2100
+Wire Wire Line
+	5000 2100 5100 2100
+Wire Wire Line
+	5100 2100 5100 2200
+Wire Wire Line
+	4900 2500 4900 2600
+Wire Wire Line
+	4900 2600 5100 2600
+Wire Wire Line
+	5100 2600 5100 2500
+$Comp
+L R R2
+U 1 1 58CB12CB
+P 4900 4450
+F 0 "R2" V 4980 4450 50  0000 C CNN
+F 1 "R" V 4900 4450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 4830 4450 50  0001 C CNN
+F 3 "" H 4900 4450 50  0000 C CNN
+	1    4900 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3900 4900 4300
+Wire Wire Line
+	4900 4600 4900 4700
+Wire Wire Line
+	4900 4700 5100 4700
+Wire Wire Line
+	5100 4700 5100 4600
+Wire Wire Line
+	5100 4300 5100 4200
+Wire Wire Line
+	5100 4200 5000 4200
+Wire Wire Line
+	5000 4200 5000 3900
+Text Notes 4200 5000 0    60   ~ 0
+Optional R+C for gain selection.\nGain 20 if omitted. Gain 200 with C.\nGain 20..200 with C and R.
+Text Notes 4200 2900 0    60   ~ 0
+Optional R+C for gain selection.\nGain 20 if omitted. Gain 200 with C.\nGain 20..200 with C and R.
+$Comp
+L GND #PWR09
+U 1 1 58CB1E6B
+P 3400 2550
+F 0 "#PWR09" H 3400 2300 50  0001 C CNN
+F 1 "GND" H 3400 2400 50  0000 C CNN
+F 2 "" H 3400 2550 50  0000 C CNN
+F 3 "" H 3400 2550 50  0000 C CNN
+	1    3400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 58CB1E9D
+P 3400 2950
+F 0 "#PWR010" H 3400 2700 50  0001 C CNN
+F 1 "GND" H 3400 2800 50  0000 C CNN
+F 2 "" H 3400 2950 50  0000 C CNN
+F 3 "" H 3400 2950 50  0000 C CNN
+	1    3400 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2550 3400 2550
+Wire Wire Line
+	3500 2950 3400 2950
+$Comp
+L CONN_01X02 P4
+U 1 1 58CB2270
+P 2900 3850
+F 0 "P4" H 2900 4000 50  0000 C CNN
+F 1 "CONN_01X02" H 2900 3700 50  0000 C CNN
+F 2 "Sockets_WAGO734:WAGO_734_2pin_Straight_RuggedPads" H 2900 3850 50  0001 C CNN
+F 3 "" H 2900 3850 50  0000 C CNN
+	1    2900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 58CB22C1
+P 2600 4000
+F 0 "#PWR011" H 2600 3750 50  0001 C CNN
+F 1 "GND" H 2700 3850 50  0000 C CNN
+F 2 "" H 2600 4000 50  0000 C CNN
+F 3 "" H 2600 4000 50  0000 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3900 2700 3900
+Wire Wire Line
+	2600 3900 2600 4000
+$Comp
+L +9V #PWR012
+U 1 1 58CB233E
+P 2600 3700
+F 0 "#PWR012" H 2600 3550 50  0001 C CNN
+F 1 "+9V" H 2700 3800 50  0000 C CNN
+F 2 "" H 2600 3700 50  0000 C CNN
+F 3 "" H 2600 3700 50  0000 C CNN
+	1    2600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3700 2600 3800
+Wire Wire Line
+	2300 3800 2700 3800
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 58CB285D
+P 2400 3750
+F 0 "#FLG013" H 2400 3845 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 4000 50  0000 C CNN
+F 2 "" H 2400 3750 50  0000 C CNN
+F 3 "" H 2400 3750 50  0000 C CNN
+	1    2400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3650 2300 3800
+Connection ~ 2600 3800
+$Comp
+L PWR_FLAG #FLG014
+U 1 1 58CB2922
+P 2400 3950
+F 0 "#FLG014" H 2400 4045 50  0001 C CNN
+F 1 "PWR_FLAG" H 2400 4200 50  0000 C CNN
+F 2 "" H 2400 3950 50  0000 C CNN
+F 3 "" H 2400 3950 50  0000 C CNN
+	1    2400 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 4050 2300 3900
+Connection ~ 2600 3900
+Wire Notes Line
+	5250 2550 4800 2550
+Wire Notes Line
+	4800 2550 4800 2150
+Wire Notes Line
+	4800 2150 5250 2150
+Wire Notes Line
+	5250 2150 5250 2550
+Wire Notes Line
+	4800 4250 4800 4650
+Wire Notes Line
+	4800 4250 5250 4250
+Wire Notes Line
+	5250 4250 5250 4650
+Wire Notes Line
+	5250 4650 4800 4650
+$Comp
+L CP C8
+U 1 1 58CB51AF
+P 2100 3850
+F 0 "C8" H 2125 3950 50  0000 L CNN
+F 1 "10u" H 2125 3750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L25_P5" H 2138 3700 50  0001 C CNN
+F 3 "" H 2100 3850 50  0000 C CNN
+	1    2100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C7
+U 1 1 58CB5226
+P 1850 3850
+F 0 "C7" H 1875 3950 50  0000 L CNN
+F 1 "10u" H 1875 3750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L25_P5" H 1888 3700 50  0001 C CNN
+F 3 "" H 1850 3850 50  0000 C CNN
+	1    1850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3750 2400 3800
+Connection ~ 2400 3800
+Wire Wire Line
+	2400 3950 2400 3900
+Connection ~ 2400 3900
+Wire Wire Line
+	1850 3650 2300 3650
+Wire Wire Line
+	2100 3650 2100 3700
+Wire Wire Line
+	1850 4050 2300 4050
+Wire Wire Line
+	2100 4050 2100 4000
+Wire Wire Line
+	1850 3650 1850 3700
+Connection ~ 2100 3650
+Wire Wire Line
+	1850 4050 1850 4000
+Connection ~ 2100 4050
+Text Notes 1600 4400 0    60   ~ 0
+Optional decoupling caps - 1 per IC -\nif power supply is not well regulated.
+Wire Wire Line
+	2400 2350 2750 2350
+$Comp
+L C C9
+U 1 1 58CC6DB9
+P 2900 2350
+F 0 "C9" H 2925 2450 50  0000 L CNN
+F 1 "470n" H 2925 2250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 2938 2200 50  0001 C CNN
+F 3 "" H 2900 2350 50  0000 C CNN
+	1    2900 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C10
+U 1 1 58CC6E50
+P 2900 2750
+F 0 "C10" H 2925 2850 50  0000 L CNN
+F 1 "470n" H 2925 2650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 2938 2600 50  0001 C CNN
+F 3 "" H 2900 2750 50  0000 C CNN
+	1    2900 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 P1
+U 1 1 58CC8278
+P 2200 2550
+F 0 "P1" H 2200 2750 50  0000 C CNN
+F 1 "CONN_01X03" V 2300 2550 50  0000 C CNN
+F 2 "Sockets_WAGO734:WAGO_734_3pin_Straight_RuggedPads" H 2200 2550 50  0001 C CNN
+F 3 "" H 2200 2550 50  0000 C CNN
+	1    2200 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 58CC82F0
+P 6800 2500
+F 0 "P2" H 6800 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 6900 2500 50  0000 C CNN
+F 2 "Sockets_WAGO734:WAGO_734_3pin_Straight_RuggedPads" H 6800 2500 50  0001 C CNN
+F 3 "" H 6800 2500 50  0000 C CNN
+	1    6800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2350 2400 2450
+Wire Wire Line
+	2750 2750 2400 2750
+Wire Wire Line
+	2400 2750 2400 2650
+$Comp
+L GND #PWR015
+U 1 1 58CC8462
+P 2500 2550
+F 0 "#PWR015" H 2500 2300 50  0001 C CNN
+F 1 "GND" H 2500 2400 50  0000 C CNN
+F 2 "" H 2500 2550 50  0000 C CNN
+F 3 "" H 2500 2550 50  0000 C CNN
+	1    2500 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 2550 2400 2550
+Wire Wire Line
+	6600 1500 6600 2400
+Wire Wire Line
+	6600 3600 6600 2600
+$Comp
+L GND #PWR016
+U 1 1 58CC85D4
+P 6450 2500
+F 0 "#PWR016" H 6450 2250 50  0001 C CNN
+F 1 "GND" H 6450 2350 50  0000 C CNN
+F 2 "" H 6450 2500 50  0000 C CNN
+F 3 "" H 6450 2500 50  0000 C CNN
+	1    6450 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 2500 6450 2500
+$Comp
+L CP C1
+U 1 1 58CC924C
+P 5100 2350
+F 0 "C1" H 5125 2450 50  0000 L CNN
+F 1 "10u" H 4950 2250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 5138 2200 50  0001 C CNN
+F 3 "" H 5100 2350 50  0000 C CNN
+	1    5100 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C2
+U 1 1 58CC9321
+P 5100 4450
+F 0 "C2" H 5100 4550 50  0000 L CNN
+F 1 "10u" H 4950 4350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 5138 4300 50  0001 C CNN
+F 3 "" H 5100 4450 50  0000 C CNN
+	1    5100 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 58FFA6EB
+P 6200 1500
+F 0 "R5" V 6280 1500 50  0000 C CNN
+F 1 "0.5" V 6200 1500 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 6130 1500 50  0001 C CNN
+F 3 "" H 6200 1500 50  0000 C CNN
+	1    6200 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 58FFA76C
+P 6200 3600
+F 0 "R6" V 6280 3600 50  0000 C CNN
+F 1 "0.5" V 6200 3600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 6130 3600 50  0001 C CNN
+F 3 "" H 6200 3600 50  0000 C CNN
+	1    6200 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 1500 6050 1500
+Wire Wire Line
+	6350 1500 6600 1500
+Wire Wire Line
+	5800 3600 6050 3600
+Wire Wire Line
+	6350 3600 6600 3600
+Text Notes 6100 1400 0    60   ~ 0
+Optional resistor 1..10 [Ohm] for output current limiting.
+Text Notes 6050 3800 0    60   ~ 0
+Optional resistor 1..10 [Ohm] for output current limiting.
+Text Notes 2500 2200 0    60   ~ 0
+AC coupling capacitors.
+Wire Wire Line
+	3050 2350 3500 2350
+Wire Wire Line
+	3500 2750 3050 2750
+Wire Wire Line
+	3950 2450 4100 2450
+Wire Wire Line
+	4100 2450 4100 1400
+Wire Wire Line
+	4100 1400 4500 1400
+Wire Wire Line
+	3950 2850 4100 2850
+Wire Wire Line
+	4100 2850 4100 3500
+Wire Wire Line
+	4100 3500 4500 3500
+$Comp
+L omeg_dual_pot RV1
+U 1 1 58FFCB18
+P 3650 2650
+F 0 "RV1" H 3810 2960 50  0000 C CNN
+F 1 "omeg_dual_pot" H 3850 2250 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK163-double_20mm" H 3650 2650 50  0001 C CNN
+F 3 "" H 3650 2650 50  0000 C CNN
+	1    3650 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 7000 2500 0    60   ~ 0
+This output terminal is wired\nto a TRS plug or directly to speakers.
+Text Notes 7350 7500 0    60   ~ 0
+AUDIO_AMP_LM386_MK1
+Text Notes 8150 7650 0    60   ~ 0
+2017-05-11
+Text Notes 10600 7650 0    60   ~ 0
+1
+$EndSCHEMATC
