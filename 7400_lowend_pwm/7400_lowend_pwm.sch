@@ -1,0 +1,318 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NE555 U?
+U 1 1 5A0F0149
+P 2600 2450
+F 0 "U?" H 2200 2800 50  0000 L CNN
+F 1 "NE555" H 2200 2100 50  0000 L CNN
+F 2 "" H 2600 2450 50  0001 C CNN
+F 3 "" H 2600 2450 50  0001 C CNN
+	1    2600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS85 U?
+U 1 1 5A0F0665
+P 8650 2450
+F 0 "U?" H 8700 2550 50  0000 C CNN
+F 1 "74LS85" H 8700 2400 50  0000 C CNN
+F 2 "" H 8650 2450 50  0001 C CNN
+F 3 "" H 8650 2450 50  0001 C CNN
+	1    8650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS293 U?
+U 1 1 5A0F06F6
+P 6100 1900
+F 0 "U?" H 6100 1900 50  0000 C CNN
+F 1 "74LS293" H 6200 1650 50  0000 C CNN
+F 2 "" H 6100 1900 50  0001 C CNN
+F 3 "" H 6100 1900 50  0001 C CNN
+	1    6100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS293 U?
+U 1 1 5A0F0773
+P 6100 3000
+F 0 "U?" H 6100 3000 50  0000 C CNN
+F 1 "74LS293" H 6200 2750 50  0000 C CNN
+F 2 "" H 6100 3000 50  0001 C CNN
+F 3 "" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1750 7200 1750
+Wire Wire Line
+	7300 1850 6800 1850
+Wire Wire Line
+	7400 1950 6800 1950
+Wire Wire Line
+	6800 2050 7950 2050
+Wire Wire Line
+	6800 2850 7950 2850
+Wire Wire Line
+	6800 2950 7400 2950
+Wire Wire Line
+	6800 3050 7300 3050
+Wire Wire Line
+	7200 3150 6800 3150
+Wire Wire Line
+	7400 1950 7400 2150
+Wire Wire Line
+	7400 2150 7950 2150
+Wire Wire Line
+	7300 1850 7300 2250
+Wire Wire Line
+	7300 2250 7950 2250
+Wire Wire Line
+	7200 1750 7200 2350
+Wire Wire Line
+	7200 2350 7950 2350
+Wire Wire Line
+	7400 2950 7400 2750
+Wire Wire Line
+	7400 2750 7950 2750
+Wire Wire Line
+	7950 2650 7300 2650
+Wire Wire Line
+	7300 2650 7300 3050
+Wire Wire Line
+	7200 3150 7200 2550
+Wire Wire Line
+	7200 2550 7950 2550
+$Comp
+L R R?
+U 1 1 5A0F0C68
+P 3950 2650
+F 0 "R?" V 4030 2650 50  0000 C CNN
+F 1 "R" V 3950 2650 50  0000 C CNN
+F 2 "" V 3880 2650 50  0001 C CNN
+F 3 "" H 3950 2650 50  0001 C CNN
+	1    3950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A0F0D8F
+P 3950 3050
+F 0 "R?" V 4030 3050 50  0000 C CNN
+F 1 "R" V 3950 3050 50  0000 C CNN
+F 2 "" V 3880 3050 50  0001 C CNN
+F 3 "" H 3950 3050 50  0001 C CNN
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5A0F0FB8
+P 3950 3450
+F 0 "C?" H 3975 3550 50  0000 L CNN
+F 1 "CP" H 3975 3350 50  0000 L CNN
+F 2 "" H 3988 3300 50  0001 C CNN
+F 3 "" H 3950 3450 50  0001 C CNN
+	1    3950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2250 4750 2250
+Wire Wire Line
+	3950 2800 3950 2900
+Wire Wire Line
+	3950 3200 3950 3300
+Wire Wire Line
+	3100 2450 3600 2450
+Wire Wire Line
+	3600 2450 3600 2850
+Wire Wire Line
+	3600 2850 3950 2850
+Connection ~ 3950 2850
+Wire Wire Line
+	3100 2650 3350 2650
+Wire Wire Line
+	3350 2650 3350 3250
+Wire Wire Line
+	3350 3250 3950 3250
+Connection ~ 3950 3250
+Wire Wire Line
+	3950 1900 3950 2500
+$Comp
+L VDD #PWR?
+U 1 1 5A0F119A
+P 2600 1900
+F 0 "#PWR?" H 2600 1750 50  0001 C CNN
+F 1 "VDD" H 2600 2050 50  0000 C CNN
+F 2 "" H 2600 1900 50  0001 C CNN
+F 3 "" H 2600 1900 50  0001 C CNN
+	1    2600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A0F1677
+P 2600 3700
+F 0 "#PWR?" H 2600 3450 50  0001 C CNN
+F 1 "GND" H 2600 3550 50  0000 C CNN
+F 2 "" H 2600 3700 50  0001 C CNN
+F 3 "" H 2600 3700 50  0001 C CNN
+	1    2600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3700 3950 3700
+Wire Wire Line
+	3950 3700 3950 3600
+Wire Wire Line
+	2600 2850 2600 3700
+$Comp
+L C C?
+U 1 1 5A0F16ED
+P 1400 2700
+F 0 "C?" H 1425 2800 50  0000 L CNN
+F 1 "C" H 1425 2600 50  0000 L CNN
+F 2 "" H 1438 2550 50  0001 C CNN
+F 3 "" H 1400 2700 50  0001 C CNN
+	1    1400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2450 1400 2450
+Wire Wire Line
+	1400 2450 1400 2550
+Wire Wire Line
+	1400 2850 1400 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	2100 2250 2000 2250
+Wire Wire Line
+	2000 2250 2000 2900
+Wire Wire Line
+	2000 2900 3350 2900
+Connection ~ 3350 2900
+Wire Wire Line
+	2100 2650 1900 2650
+Wire Wire Line
+	1900 2650 1900 1900
+Wire Wire Line
+	1900 1900 3950 1900
+Wire Wire Line
+	2600 1900 2600 2050
+Connection ~ 2600 1900
+Wire Wire Line
+	4750 1600 4750 2700
+Wire Wire Line
+	4750 1600 5400 1600
+Wire Wire Line
+	4750 2700 5400 2700
+Connection ~ 4750 2250
+$Comp
+L GND #PWR?
+U 1 1 5A0F24D2
+P 5300 3400
+F 0 "#PWR?" H 5300 3150 50  0001 C CNN
+F 1 "GND" H 5300 3250 50  0000 C CNN
+F 2 "" H 5300 3400 50  0001 C CNN
+F 3 "" H 5300 3400 50  0001 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A0F24F5
+P 5300 2300
+F 0 "#PWR?" H 5300 2050 50  0001 C CNN
+F 1 "GND" H 5300 2150 50  0000 C CNN
+F 2 "" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1700 5300 1700
+Wire Wire Line
+	5300 1700 5300 2300
+Wire Wire Line
+	5400 2200 5300 2200
+Connection ~ 5300 2200
+Wire Wire Line
+	5400 2100 5300 2100
+Connection ~ 5300 2100
+Wire Wire Line
+	5400 1950 5300 1950
+Connection ~ 5300 1950
+Wire Wire Line
+	5400 1850 5300 1850
+Connection ~ 5300 1850
+Wire Wire Line
+	5400 2800 5300 2800
+Wire Wire Line
+	5300 2800 5300 3400
+Wire Wire Line
+	5400 3300 5300 3300
+Connection ~ 5300 3300
+Wire Wire Line
+	5400 3200 5300 3200
+Connection ~ 5300 3200
+Wire Wire Line
+	5400 3050 5300 3050
+Connection ~ 5300 3050
+Wire Wire Line
+	5400 2950 5300 2950
+Connection ~ 5300 2950
+$Comp
+L Rotary_Encoder SW?
+U 1 1 5A0F3832
+P 6050 950
+F 0 "SW?" H 6050 1210 50  0000 C CNN
+F 1 "Rotary_Encoder" H 6050 690 50  0000 C CNN
+F 2 "" H 5950 1110 50  0001 C CNN
+F 3 "" H 6050 1210 50  0001 C CNN
+	1    6050 950 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
