@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/andreas/git/andrsmllr/pcb/audio_amp_lm386_mk1/audio_amp_lm386_mk1.sch</source>
+    <date>Di 30 Mai 2017 20:17:22 CEST</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>audio_amp_lm386_mk1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM386</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="linear" part="LM386"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB04A4</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM386</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="linear" part="LM386"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB050B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>250u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB0649</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>250u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB06D6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB074B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB079E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB07ED</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB0835</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB116B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB12CB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X02</value>
+      <footprint>Sockets_WAGO734:WAGO_734_2pin_Straight_RuggedPads</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB2270</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L25_P5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB51AF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L25_P5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CB5226</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>470n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6DB9</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>470n</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC6E50</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>Sockets_WAGO734:WAGO_734_3pin_Straight_RuggedPads</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC8278</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X03</value>
+      <footprint>Sockets_WAGO734:WAGO_734_3pin_Straight_RuggedPads</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC82F0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC924C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CC9321</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0.5</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58FFA6EB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0.5</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58FFA76C</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>omeg_dual_pot</value>
+      <footprint>Potentiometers:Potentiometer_Alps-RK163-double_20mm</footprint>
+      <libsource lib="audio_amp_lm386_mk1-cache" part="omeg_dual_pot"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58FFCB18</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM386">
+      <description>Audio Power Amp.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM386</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="Gnd" type="power_in"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="V+" type="power_in"/>
+        <pin num="8" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_amp_lm386_mk1-cache" part="omeg_dual_pot">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">omeg_dual_pot</field>
+      </fields>
+      <pins>
+        <pin num="11" name="1" type="passive"/>
+        <pin num="12" name="2" type="passive"/>
+        <pin num="13" name="3" type="passive"/>
+        <pin num="21" name="4" type="passive"/>
+        <pin num="22" name="5" type="passive"/>
+        <pin num="23" name="6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="audio_amp_lm386_mk1-cache">
+      <uri>/home/andreas/git/andrsmllr/pcb/audio_amp_lm386_mk1/audio_amp_lm386_mk1-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="RV1" pin="11"/>
+    </net>
+    <net code="2" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="RV1" pin="21"/>
+    </net>
+    <net code="3" name="Net-(C10-Pad2)">
+      <node ref="P1" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="4" name="+9V">
+      <node ref="P4" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="P2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="RV1" pin="13"/>
+      <node ref="RV1" pin="23"/>
+    </net>
+    <net code="6" name="Net-(C9-Pad2)">
+      <node ref="P1" pin="3"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(RV1-Pad12)">
+      <node ref="RV1" pin="12"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(RV1-Pad22)">
+      <node ref="RV1" pin="22"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(P2-Pad3)">
+      <node ref="R6" pin="1"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="13" name="Net-(C2-Pad2)">
+      <node ref="U2" pin="8"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="19" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+  </nets>
+</export>
