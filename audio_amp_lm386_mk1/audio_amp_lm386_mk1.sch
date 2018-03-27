@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:audio_amp_lm386_mk1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM386 U1
+L LM386-RESCUE-audio_amp_lm386_mk1 U1
 U 1 1 58CB04A4
 P 4800 1500
 F 0 "U1" H 4850 1800 50  0000 L CNN
@@ -55,7 +56,7 @@ F 3 "" H 5000 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM386 U2
+L LM386-RESCUE-audio_amp_lm386_mk1 U2
 U 1 1 58CB050B
 P 4800 3600
 F 0 "U2" H 4850 3900 50  0000 L CNN
